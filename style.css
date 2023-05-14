@@ -172,6 +172,7 @@ header{
     border: none;
     cursor: pointer;
     transition: 0.5s;
+    font-weight: bold;
 }
 
 .login-button button:hover{
