@@ -19,6 +19,7 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
+
 }
 
 .menu{
@@ -88,6 +89,7 @@ header{
     background-image: url(assets/getir-mainpage.jpg);
     display: flex;
     justify-content: space-between;
+    background-size: cover;
 }
 
 .banner-left{
