@@ -148,6 +148,7 @@ header{
     border-radius: 5px;
     border: 1px solid rgb(158, 157, 157);
     margin-right: 4px;
+    padding-left: 15px;
 }
 
 .login-input .input2{
@@ -155,6 +156,7 @@ header{
     width: 250px;
     border-radius: 5px;
     border: 1px solid rgb(158, 157, 157);
+    padding-left: 15px;
 }
 
 .login-button{
