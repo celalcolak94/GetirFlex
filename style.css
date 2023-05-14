@@ -1,0 +1,228 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+/*! Navbar start */
+.navbar{
+    height: 45px;
+    background-color: rgb(76, 51, 152);
+    padding-left: 55px;
+    padding-right: 55px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu{
+    display: inline-flex;
+    align-items: center;
+    height: 100%;
+    column-gap: 20px;
+}
+
+.menu-item{
+    padding: 10px 15px;
+}
+
+.menu-item-getir{
+    padding: 10px 15px;
+    background-color: #5d3ebc;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+.menu-item:hover{
+    background-color: #5d3ebc;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+.menu-item-getir a{
+    color: rgb(255, 211, 0);
+    text-decoration: none;
+}
+
+.menu-item a{
+    text-decoration: none;
+    color: white;
+}
+
+.giris{
+    display: inline-flex;
+    align-items: center;
+    height: 100%;
+    column-gap: 20px;
+}
+
+.buttons{
+    padding: 10px 15px;
+}
+
+.buttons button{
+    background-color: rgb(76, 51, 152);
+    border: none;
+    cursor: pointer;
+    color: white;
+}
+
+.buttons i{
+    color: white;
+}
+/*! Navbar end */
+
+/*! Banner start */
+.banner{
+    width: 100%;
+    height: 500px;
+    background-image: url(assets/getir-mainpage.jpg);
+    display: flex;
+    justify-content: space-between;
+}
+
+.banner-left{
+    width: 300px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-left img{
+    width: 200px;
+    height: 200px;
+}
+
+.banner-left h1{
+    color: white;
+    font-size: 35px;
+    margin-top: 25px;
+    margin-left: 40px;
+    
+}
+
+.banner-right{
+    width: 550px;
+    height: 100%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login{
+    width: 400px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: white;
+    padding: 10px 0;
+    border-radius: 7px;
+    opacity: 0.9;
+}
+
+.login-text{
+    color: #5d3ebc;
+    text-align: center;
+}
+
+.login-input{
+    height: 60px;
+    padding: 0 20px;
+}
+
+.login-input .input1{
+    height: 50px;
+    width: 100px;
+    border-radius: 5px;
+    border: 1px solid rgb(158, 157, 157);
+    margin-right: 4px;
+}
+
+.login-input .input2{
+    height: 50px;
+    width: 250px;
+    border-radius: 5px;
+    border: 1px solid rgb(158, 157, 157);
+}
+
+.login-button{
+    padding: 0 20px;
+}
+
+.login-button button{
+    background-color:rgb(255, 211, 0) ;
+    color:#5d3ebc ;
+    width: 100%;
+    height: 50px;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: 500;
+    border: none;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.login-button button:hover{
+    color: rgb(255, 211, 0);
+    background-color:#5d3ebc ;
+}
+/*! Banner end */
+
+/*! Kategori start */
+.kategori{
+    margin-top: 20px;
+    padding: 10px 40px;
+    height: auto;
+}
+
+.kategori h3{
+    padding: 10px 0;
+}
+
+.kategori-items{
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.kategori-item{
+    width: 120px;
+    height: 120px;
+    text-align: center;
+    margin: 5px 10px;
+    padding: 2px;
+    padding-top: 15px;
+}
+
+.kategori-item:hover{
+    background-color: rgb(221, 221, 221);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+.kategori-item:hover h3{
+    color: #5d3ebc;
+}
+
+.kategori-item img{
+    width: 50px;
+    height: 50px;
+    border: 1px solid rgb(158, 157, 157);
+    border-radius: 10px;
+}
+
+.kategori-item h3{
+    color: rgb(73, 73, 73);
+    font-size: 17px;
+}
+/*! Kategori end */
